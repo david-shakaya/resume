@@ -1,0 +1,29 @@
+// .list-tabs {
+
+// }
+.list-tab-item {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+
+  width: 60vw;
+  padding: 20px;
+  display: flex;
+  background-color: rgba($color: #80b1df, $alpha: 0.5);
+  transform: translate(-104%, 185px);
+  border-radius: 20px;
+  box-shadow: 7px 7px 11px -1px rgba(0, 0, 0, 0.92);
+}
+
+.list-tab-item-btn {
+  position: absolute;
+  right: -227px;
+  width: 220px;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  height: 72px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 11px -1px rgba(0, 0, 0, 0.92);
+  background-color: rgba($color: #80b1df, $alpha: 0.5);
+}
