@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .body-background {
   background-image: url('../images/bcgr.png');
   height: 100vh;
@@ -95,9 +99,9 @@
 
 .bird-container {
   position: absolute;
-  top: 20%;
-  left: -10%;
-  transform: scale(0) translateX(-10vw);
+  top: 29%;
+  left: -1%;
+  transform: scale(0) translateX(-1vw);
   will-change: transform;
 
   animation-name: fly-right-one;
@@ -161,7 +165,7 @@
   }
 
   100% {
-    transform: translateY(0vh) translateX(110vw) scale(0.3);
+    transform: translateY(0vh) translateX(102vw) scale(0.3);
   }
 }
 
@@ -190,11 +194,11 @@
     transform: translateY(0vh) translateX(90vw) scale(0.45);
   }
 
-  51% {
-    transform: translateY(0vh) translateX(110vw) scale(0.45);
-  }
+  // 51% {
+  //   transform: translateY(0vh) translateX(110vw) scale(0.45);
+  // }
 
   100% {
-    transform: translateY(0vh) translateX(110vw) scale(0.45);
+    transform: translateY(0vh) translateX(102vw) scale(0.45);
   }
 }
