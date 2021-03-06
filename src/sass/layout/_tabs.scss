@@ -18,12 +18,39 @@
 .list-tab-item-btn {
   position: absolute;
   right: -227px;
+  top: 0px;
   width: 220px;
   height: 50px;
   border: 0;
   outline: 0;
   height: 72px;
   border-radius: 20px;
-  box-shadow: 7px 7px 11px -1px rgba(0, 0, 0, 0.92);
-  background-color: rgba($color: #80b1df, $alpha: 0.5);
+  box-shadow: 6px 6px 21px 8px rgba(0, 0, 0, 0.91);
+  background-color: transparent;
+  font-size: 22px;
+
+  &:hover {
+    background-color: rgb(241, 180, 12);
+    transition: 0.5s;
+  }
+}
+
+.list-tab-item-btn {
+  animation-name: spin;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
