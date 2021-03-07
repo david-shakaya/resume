@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: Arial;
+}
+
 ul,
 h1,
 h2,
@@ -17,10 +21,10 @@ p {
   margin: 0px;
 }
 
-br {
-  display: none;
-}
-
 li {
   list-style: none;
+}
+
+b {
+  font-size: 14px;
 }

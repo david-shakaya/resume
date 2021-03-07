@@ -9,7 +9,7 @@
   width: 60vw;
   padding: 20px;
   display: flex;
-  background-color: rgba($color: #80b1df, $alpha: 0.5);
+  background-color: rgba($color: #80b1df, $alpha: 0.8);
   transform: translate(-104%, 185px);
   border-radius: 20px;
   box-shadow: 7px 7px 11px -1px rgba(0, 0, 0, 0.92);
@@ -110,4 +110,11 @@
   100% {
     transform: scale(1.1);
   }
+}
+
+// текст табов
+.list-tab-item p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
 }
