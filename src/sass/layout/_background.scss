@@ -20,6 +20,16 @@ body {
   z-index: 18;
   animation: cloudmove 3s infinite linear;
 }
+
+#clouds2 {
+  top: -59px;
+  z-index: 19;
+}
+
+#clouds3 {
+  z-index: 20;
+  top: -109px;
+}
 @keyframes cloudmove {
   from {
     background-position: -113px 0px;
