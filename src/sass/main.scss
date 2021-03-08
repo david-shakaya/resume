@@ -1,6 +1,7 @@
 @import 'normalize.scss';
 @import 'base.scss';
 @import './utils/var';
-// @import './components/container';
+@import './components/container';
+@import './layout/header';
 @import './layout/background';
 @import './layout/tabs';

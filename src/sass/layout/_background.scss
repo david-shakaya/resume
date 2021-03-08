@@ -244,6 +244,7 @@ body {
 // STAR
 
 .star {
+  display: none;
   width: 20px;
   height: 20px;
   background-image: url(../images/st.png);
@@ -254,17 +255,31 @@ body {
 
   animation: spin 5s infinite linear;
 }
-#star1 {
-  top: 200px;
-  left: 512px;
+@media screen and (min-width: 534px) {
+  #star1 {
+    display: block;
+    top: 200px;
+    left: 512px;
+  }
 }
 
-#star2 {
-  width: 15px;
-  height: 15px;
-  top: 300px;
-  left: 712px;
-  animation: spin 5s infinite linear;
+@media screen and (min-width: 740px) {
+  #star2 {
+    display: block;
+    width: 15px;
+    height: 15px;
+    top: 300px;
+    left: 712px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #star3 {
+    display: block;
+    width: 15px;
+    height: 15px;
+    top: 250px;
+    left: 1252px;
+  }
 }
 
 @keyframes spin {
