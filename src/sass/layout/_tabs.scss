@@ -11,13 +11,13 @@
   display: flex;
   justify-content: center;
   background-color: rgba($color: #80b1df, $alpha: 0.85);
-  transform: translate(-104%, 185px);
+  transform: translate(-104%, 220px);
   border-radius: 20px;
   box-shadow: 7px 7px 11px -1px rgba(0, 0, 0, 0.92);
 }
 
 .active-item {
-  transform: translate(34%, 185px);
+  transform: translate(34%, 220px);
   transition-duration: 250ms;
   transition-timing-function: ease-in-out;
   transition-delay: 250ms;
@@ -43,14 +43,14 @@
   position: absolute;
   right: -427px;
   top: -14px;
-  width: 185px;
-  height: 35px;
+  width: 145px;
+  height: 25px;
   border: 0;
   outline: 0;
   border-radius: 20px;
   box-shadow: 6px 6px 21px 8px rgba(0, 0, 0, 0.91);
   background-color: transparent;
-  font-size: 22px;
+  font-size: 17px;
 
   &:hover {
     background-color: rgb(241, 180, 12);
