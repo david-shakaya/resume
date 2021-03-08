@@ -10,7 +10,7 @@
   padding: 20px;
   display: flex;
   justify-content: center;
-  background-color: rgba($color: #80b1df, $alpha: 0.8);
+  background-color: rgba($color: #80b1df, $alpha: 0.85);
   transform: translate(-104%, 185px);
   border-radius: 20px;
   box-shadow: 7px 7px 11px -1px rgba(0, 0, 0, 0.92);
@@ -41,13 +41,12 @@
 
 .list-tab-item-btn {
   position: absolute;
-  right: -227px;
-  top: 0px;
-  width: 220px;
-  height: 50px;
+  right: -427px;
+  top: -14px;
+  width: 185px;
+  height: 35px;
   border: 0;
   outline: 0;
-  height: 72px;
   border-radius: 20px;
   box-shadow: 6px 6px 21px 8px rgba(0, 0, 0, 0.91);
   background-color: transparent;
@@ -61,14 +60,13 @@
 }
 
 .btn-two {
-  top: 100px;
+  right: -627px;
 }
-
 .btn-three {
-  top: 200px;
+  right: -827px;
 }
 .btn-four {
-  top: 300px;
+  right: -1027px;
 }
 
 .btn-one,
